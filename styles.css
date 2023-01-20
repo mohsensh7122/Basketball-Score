@@ -1,0 +1,95 @@
+@font-face {
+    font-family: CursedTime;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color:  #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 100px;
+    flex: 1 50%;
+}
+
+.score {
+    color: #F94F6D;
+    font-weight: 400;
+font-size: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.score-box {
+    background-color: #000001;
+    width: 300px;
+height: 220px;
+margin: 0 auto;
+border-radius: 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.counter-buttons {
+    width: 300px;
+    display: flex;
+    margin: 20px auto 0;
+    justify-content: space-between;
+}
+
+.counter-buttons div {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #9AABD8;
+}
+
+.score, span {
+    font-family: "CursedTime", sans-serif;
+}
+span {
+    font-size: 24px;
+}
+
+.reset-score {
+    width: 150px;
+    height: 40px;
+    background-color: #F94F6D;
+    text-align: center;
+    margin: 60px auto;
+    padding: 2px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid rgba(225, 29, 72, 1);
+    display: flex;
+    align-items: center;
+}
+
+.reset-score h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

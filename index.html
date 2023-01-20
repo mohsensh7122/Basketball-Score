@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Score</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <section id="home">
+            <h1 class="title">
+                Home
+            </h1>
+            <div class="score-box">
+                <h2 class="score" id="score-home">0</h2>
+            </div>
+            <div class="counter-buttons">
+                <div><span class="add-1" onclick="addOneHome()">+1</span></div>
+                <div><span class="add-2" onclick="addTwoHome()">+2</span></div>
+                <div><span class="add-3" onclick="addThreeHome()">+3</span></div>
+            </div>
+        </section>
+        <section id="guest">
+            <h1 class="title">
+                guest
+            </h1>
+            <div class="score-box">
+                <h2 class="score" id="score-guest">0</h2>
+            </div>
+            <div class="counter-buttons">
+                <div><span class="add-1" onclick="addOneGuest()">+1</span></div>
+                <div><span class="add-2" onclick="addTwoGuest()">+2</span></div>
+                <div><span class="add-3" onclick="addThreeGuest()">+3</span></div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <div class="reset-score" onclick="resetScore()">
+        <h2>Reset</h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
